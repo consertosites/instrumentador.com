@@ -1,0 +1,34 @@
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  /* aqui você pode definir outros estilos */
+}
+
+/* Estilos para telas menores */
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  /* Aqui você pode ajustar outros estilos para dispositivos móveis */
+}
+body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Estilos para o título */
+    h1 {
+      text-align: center;
+      font-size: 3rem;
+      line-height: 1;
+    }
+a {
+	text-decoration: none;
+	color: #000;
+}
+		
