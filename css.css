@@ -1,5 +1,5 @@
 body {
-  font-size: 21px;
+  font-size: 48px;
   line-height: 1.5;
   /* aqui você pode definir outros estilos */
   /* Define a imagem que será usada como fundo */
@@ -30,9 +30,9 @@ body {
 
     /* Estilos para o título */
     h1 {
-	  font-size: 21px;
+      font-size: 48px;
       text-align: center;
-	  color:#FFF;
+      text-color: #000;
       font-size: 3rem;
       line-height: 1;
 	  text-shadow: 1px 8px 10px rgba(0, 0, 0, 0.3);
@@ -40,8 +40,5 @@ body {
 a {
 	text-decoration: none;
 	color: #000;
-}
-hr {
-	color:#FFF;
 }
 		
