@@ -30,9 +30,9 @@ body {
 
     /* Estilos para o título */
     h1 {
-      font-size: 48px;
+	  font-size: 48px;
       text-align: center;
-      text-color: #000;
+	  color:#FFF;
       font-size: 3rem;
       line-height: 1;
 	  text-shadow: 1px 8px 10px rgba(0, 0, 0, 0.3);
@@ -41,4 +41,5 @@ a {
 	text-decoration: none;
 	color: #000;
 }
+
 		
