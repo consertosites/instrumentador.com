@@ -1,5 +1,5 @@
 body {
-  font-size: 16px;
+  font-size: 21px;
   line-height: 1.5;
   /* aqui você pode definir outros estilos */
   /* Define a imagem que será usada como fundo */
@@ -12,11 +12,9 @@ body {
   /* Define a posição da imagem de fundo (opcional) */
   background-position: center center; /* Posiciona a imagem ao centro */
 }
-
-/* Estilos para telas menores */
-@media only screen and (max-width: 480px) {
+@media (max-width: 768px) {
   body {
-    font-size: 14px;
+    font-size: 21px; /* Reduz o tamanho da fonte do corpo */
   }
 
   /* Aqui você pode ajustar outros estilos para dispositivos móveis */
@@ -32,6 +30,7 @@ body {
 
     /* Estilos para o título */
     h1 {
+	  font-size: 21px;
       text-align: center;
 	  color:#FFF;
       font-size: 3rem;
