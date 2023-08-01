@@ -2,6 +2,15 @@ body {
   font-size: 16px;
   line-height: 1.5;
   /* aqui você pode definir outros estilos */
+  /* Define a imagem que será usada como fundo */
+  background-image: url('instrumentador.jpg');
+
+  /* Define como a imagem de fundo será exibida */
+  background-repeat: no-repeat; /* Para evitar a repetição da imagem */
+  background-size: cover; /* Para cobrir todo o espaço do elemento de fundo */
+
+  /* Define a posição da imagem de fundo (opcional) */
+  background-position: center center; /* Posiciona a imagem ao centro */
 }
 
 /* Estilos para telas menores */
@@ -24,11 +33,16 @@ body {
     /* Estilos para o título */
     h1 {
       text-align: center;
+	  color:#FFF;
       font-size: 3rem;
       line-height: 1;
+	  text-shadow: 1px 8px 10px rgba(0, 0, 0, 0.3);
     }
 a {
 	text-decoration: none;
 	color: #000;
+}
+hr {
+	color:#FFF;
 }
 		
